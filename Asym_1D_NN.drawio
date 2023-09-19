@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T16:29:32.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wOg-PbyFbk_7QTPQK0Sh" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T16:31:42.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="R997T9DtSvduRktroN3D" version="21.7.5" type="github">
   <diagram name="Seite-1" id="vtry0EBTkvX9W_wWAdEM">
     <mxGraphModel dx="890" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,10 +16,17 @@
         <mxCell id="nT2VTwnnFpC3ga-guyCU-4" value="+ asym_random_interaction_matrix&lt;br&gt;+ eigval_distribution" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nT2VTwnnFpC3ga-guyCU-1">
           <mxGeometry y="78" width="220" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="nT2VTwnnFpC3ga-guyCU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="nT2VTwnnFpC3ga-guyCU-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="410" y="330" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="nT2VTwnnFpC3ga-guyCU-6" value="FixPointStability" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="nT2VTwnnFpC3ga-guyCU-7" value="+ n: number of neurons&lt;br&gt;+ R: eigenvalue radius" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nT2VTwnnFpC3ga-guyCU-6">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="nT2VTwnnFpC3ga-guyCU-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nT2VTwnnFpC3ga-guyCU-6">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nT2VTwnnFpC3ga-guyCU-9" value="+ random_input&lt;br&gt;+ euler_response&lt;br&gt;+ fix_point&lt;br&gt;+ plot_time_resp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nT2VTwnnFpC3ga-guyCU-6">
+          <mxGeometry y="78" width="160" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
